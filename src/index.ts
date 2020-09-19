@@ -14,3 +14,7 @@ export {
   validateQueryCriteria,
 } from './api/validate';
 export * from './definitions';
+export {
+  toGeoPoint,
+  wrapLongitude,
+} from './utils';
